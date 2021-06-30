@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Login</title>
+</head>
+
+<body>
+    <h1> Formulário de Desenvolvedores</h1>
+    <form action="/logar" method="POST">
+        <div class="form-login">
+            <label for="email"> E-mail</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-login">
+            <label for="Senha"> Senha</label>
+            <input type="password" id="Senha" name="Senha">
+        </div>
+    </form>
+    <strong>
+        <p>Selecione sua linguagem:</p>
+    </strong>
+    <section class="linguagem-desenvolvedor">
+        <div>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" id="java" name="java" value="java">
+            <label for="java">Java</label>
+        </div>
+        <div>
+            <input type="checkbox" id="javascript" name="javascript" value="javascript">
+            <label for="javascript">Java Script</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Ruby" name="Ruby value="Ruby">
+            <label for="Ruby">Ruby</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Pyton" name="Pyton" value="Pyton">
+            <label for="Pyton">Pyton</label>
+        </div>
+    </section>
+    <section class="niveis-desenvolvedores">
+        <strong>
+            <p> Escolha o seu nível:</p>
+        </strong>
+        <div>
+            <input type="radio" name="nivel-cargo" id="estagiário" value="estagiário">
+            <label for="estagiário">Estagiário</label>
+        </div>
+        <div>
+            <input type="radio" name="nivel-cargo" id="trainee" value="trainee">
+            <label for="júnior">Trainee</label>
+            <div>
+                <input type="radio" name="nivel-cargo" id="júnior" value="júnior">
+                <label for="júnior">Júnior</label>
+            </div>
+            <div>
+                <input type="radio" name="nivel-cargo" id="pleno" value="pleno">
+                <label for="pleno">Pleno</label>
+            </div>
+            <div>
+                <input type="radio" name="nivel-cargo" id="sênior" value="sênior">
+                <label for="sênior">Sênior</label>
+            </div>
+            </form>
+    </section>
+    <br>
+    <input class="button" type="submit" value="Enviar" name="Enviar">
+</body>
+
+</html>
