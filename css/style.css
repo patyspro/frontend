@@ -1,0 +1,53 @@
+body{
+    font-family:'Prompt', sans-serif;
+    color:navy;
+    font-style:bold;
+    border-width:50px;
+
+   
+}
+
+form{
+    color:navy;
+    font-weight: inherit;
+    border-radius:initial;
+    border-spacing:60px;
+    background-origin: inherit;
+    border-width:unset;
+}
+
+a{
+    text-decoration:none ;
+}
+
+a:visited{
+    color:#8922b2;
+    font-size: medium;
+    font-style:bold;
+}
+
+
+
+a:hover{
+    text-decoration:underline ;
+}
+
+a:focus{
+    background:rgba(0,0,0,0.5);
+}
+
+
+.container{
+    width:80% ;
+    margin:auto;
+    border-width: medium;
+}
+
+.button{
+    color:midnightblue;
+  
+}
+
+
+
+

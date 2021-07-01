@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Prompt:ital,wght@0,200;1,700&display=swap"
+        rel="stylesheet">
+    <title>Formulário de Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Formulário de Desenvolvedores</h1>
+        <a href="https://bityli.com/5pb2W">Clique aqui para Pesquisar Cursos</a>
+        <br>
+        <br>
+        <form action="/logar" method="POST">
+            <div class="form-login">
+                <label for="nome"><strong> Nome</strong></label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite o seu nome">
+            </div>
+            <div class="form-login">
+                <label for="email"><strong> E-mail</strong></label>
+                <input type="email" id="email" name="email" required placeholder="Digite o seu e-mail">
+            </div>
+            <div class="form-login">
+                <label for="Senha"><strong> Senha</strong></label>
+                <input type="password" id="Senha" name="Senha" required placeholder="Digite a sua senha">
+            </div>
+        </form>
+        <strong>
+            <p>Selecione sua linguagem:</p>
+        </strong>
+        <section class="linguagem-desenvolvedor">
+            <div>
+                <input type="checkbox" id="html" name="html" value="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="checkbox" id="java" name="java" value="java">
+                <label for="java">Java</label>
+            </div>
+            <div>
+                <input type="checkbox" id="javascript" name="javascript" value="javascript">
+                <label for="javascript">Java Script</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Ruby" name="Ruby value=" Ruby">
+                <label for="Ruby">Ruby</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Pyton" name="Pyton" value="Pyton">
+                <label for="Pyton">Pyton</label>
+            </div>
+        </section>
+        <section class="niveis-desenvolvedores">
+            <strong>
+                <p> Escolha o seu nível:</p>
+            </strong>
+            <div class="item-radio">
+                <input type="radio" name="nivel-cargo" id="estagiário" value="estagiário">
+                <label for="estagiário">Estagiário</label>
+            </div>
+            <div class="item-radio">
+                <input type="radio" name="nivel-cargo" id="trainee" value="trainee">
+                <label for="júnior">Trainee</label>
+                <div class="item-radio">
+                    <input type="radio" name="nivel-cargo" id="júnior" value="júnior">
+                    <label for="júnior">Júnior</label>
+                </div>
+                <div class="item-radio">
+                    <input type="radio" name="nivel-cargo" id="pleno" value="pleno">
+                    <label for="pleno">Pleno</label>
+                </div>
+                <div class="item-radio">
+                    <input type="radio" name="nivel-cargo" id="sênior" value="sênior">
+                    <label for="sênior">Sênior</label>
+                </div>
+                </form>
+        </section>
+        <br>
+        <input class="button" type="submit" value="Enviar" name="Enviar">
+    </div>
+</body>
+
+</html>
