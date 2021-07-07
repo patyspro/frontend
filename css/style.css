@@ -3,17 +3,34 @@ body{
     color:navy;
     font-style:bold;
     border-width:50px;
+    margin: 0 auto;
+    width: 400px;
+    background-color:skyblue;
+ 
 
    
 }
 
 form{
+    margin: 0 auto;
+    width: 450px;
     color:navy;
     font-weight: inherit;
+    border-spacing:160px ;
     border-radius:initial;
-    border-spacing:60px;
     background-origin: inherit;
     border-width:unset;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 110px;
+    text-align:left;
+
 }
 
 a{
@@ -21,11 +38,10 @@ a{
 }
 
 a:visited{
-    color:#8922b2;
+    color:blue;
     font-size: medium;
     font-style:bold;
 }
-
 
 
 a:hover{
@@ -44,9 +60,41 @@ a:focus{
 }
 
 .button{
-    color:midnightblue;
+    color:blue;
+    border-radius:200px ;
+    border-color:blue;
+    width:100px;
+    
+    
   
 }
+
+.button:hover{
+    transition:0.5s ;
+    border-width: 4px 1.25em;
+    border-color:blue;
+    width:150px
+}
+
+img{
+margin:0;    
+border-radius: 100px;
+width:400px ;
+ 
+}
+
+
+@keyframes pc{
+    0%{ opacity: 0%}
+    25%{transform: translateY(-20px); opacity:100%}
+    100%{opacity:0%}
+}
+.pc{
+    animation: pc 5s infinite;
+}
+
+
+    
 
 
 
