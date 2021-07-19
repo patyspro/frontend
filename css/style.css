@@ -1,11 +1,12 @@
 body{
     font-family:'Prompt', sans-serif;
     color:navy;
-    font-style:bold;
-    border-width:50px;
+    border-width:100px;
+    padding:50px ;
     margin: 0 auto;
     width: 400px;
-    background-color:skyblue;
+    background-color:#B5EAEA;
+    border-color: black;
  
 
    
@@ -17,9 +18,9 @@ form{
     color:navy;
     font-weight: inherit;
     border-spacing:160px ;
-    border-radius:initial;
+    border-radius:260px;
     background-origin: inherit;
-    border-width:unset;
+
 }
 
 form div + div {
@@ -53,32 +54,31 @@ a:focus{
 }
 
 
-.container{
+div.container{
     width:80% ;
     margin:auto;
-    border-width: medium;
+    border-radius:60px ;
+    border-width:180px ;
 }
 
 .button{
     color:blue;
-    border-radius:200px ;
+    border-radius:300px ;
     border-color:blue;
-    width:100px;
-    
-    
-  
+    width:100px; 
 }
 
 .button:hover{
-    transition:0.5s ;
+
     border-width: 4px 1.25em;
     border-color:blue;
-    width:150px
+    width:150px;
+    border-radius:30px;
 }
 
 img{
 margin:0;    
-border-radius: 100px;
+border-radius: 30px;
 width:400px ;
  
 }
@@ -90,7 +90,7 @@ width:400px ;
     100%{opacity:0%}
 }
 .pc{
-    animation: pc 5s infinite;
+    animation: pc 8s infinite;
 }
 
 
